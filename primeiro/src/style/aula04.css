@@ -1,0 +1,26 @@
+/* estilizando as caixinhas */
+/* para estilizar uma div especifica no lugar que escrevemos div escrevemos #caixa1 */
+#caixa1 {
+  /* para criar uma tamaho */
+  /* marign: espaçamento para fora ela pe automática mas você pode alterar isso margin: 10px 20px 30px 4px */
+
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* margin: 10px; */
+  /* você consegue fazer dessa segunda forma também */
+  /* para alterar topo */
+  /* margin-top: 20px; */
+  /* alterar direita */
+  /* margin-left: 20px; */
+  /* alterar baixo */
+  /* margin-right: 20px; */
+  /* alterar baixo */
+  /* margin-bottom: 20px; */
+}
+/* estilização da caixa 2  */
+#caixa2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
