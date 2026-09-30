@@ -1,0 +1,8 @@
+/* para estilizar coloca o nome da tag  pode colocar mais de uma  */
+table,
+td {
+  /* inserir a bordar */
+  border: 1px solid #000;
+  /* organizar melhor a tabela */
+  border-collapse: collapse;
+}
