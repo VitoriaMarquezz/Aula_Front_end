@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario 2</title>
+  </head>
+  <body>
+    <!-- formulario  form é a tag de fumalários cada tag é relativo a um formulário você pode criar vários-->
+    <!-- action envia os dados para um tipo de arquivo  -->
+    <!-- método ele pega os dados  -->
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <form action="index.js" method="get">
+        <!-- titulo -->
+        <label for="nome">nome: </label>
+        <!-- entrada de dados no text colocar o tipo de entrada-->
+        <input
+          type="text"
+          name="nome"
+          id="Nome"
+          placeholder="Digite seu nome"
+          required
+          minlength="4"
+          maxlength="10"
+        />
+        <!-- quebrar uma linha -->
+        <br />
+        <!-- criar um segundo formulário -->
+        <!-- for titulo -->
+        <label for="email">email: </label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="numero"> numero:</label>
+        <input
+          type="number"
+          name="numero"
+          id="numero"
+          step="2"
+          value="10"
+          placeholder="Digite seu n"
+          required
+          min="8"
+          max="10"
+        />
+        <br />
+        <label for="">senha:</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          required
+          minlength="8"
+          maxlength="10"
+        />
+        <br />
+        <label for="">Aceita os termos?</label>
+        <input type="checkbox" name="check" id="check" checked />
+
+        <br />
+
+        <label for="contaP"> Conta Pessoal</label>
+        <input type="radio" name="conta" id="contaP" /> Sim
+
+        <label for="contaJ"></label>
+        <input type="radio" name="conta" id="ContaJ" /> Não
+
+        <p>
+          <!-- criar sempre um botão para enviar -->
+          <input type="submit" value="Enviar" />
+          <!-- botão para resetar -->
+          <input type="reset" value="Limpar" />
+        </p>
+      </form>
+    </fieldset>
+  </body>
+</html>
