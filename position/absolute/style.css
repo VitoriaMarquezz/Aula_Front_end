@@ -1,0 +1,17 @@
+#caixa1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* serve para posicionar os elementos da nosa página da forma que quisermos  */
+  /* absolute gruda um no outro e se posiona para frente, top é para cima, left esquerda right direita botom para baixo*/
+  /* z- */
+  position: absolute;
+  top:;
+}
+
+#caixa2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+/* por padrão o position ele deixa como static um embaixo do outro */
