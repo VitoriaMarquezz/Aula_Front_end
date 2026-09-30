@@ -1,0 +1,70 @@
+/* Estilo geral da página */
+body.pagina {
+  background-color: #e0f2fe; /* Azul claro de fundo */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Formulário centralizado com fundo branco */
+.meu-formulario {
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Remover a borda azul do fieldset */
+.caixa-formulario {
+  border: none;
+  padding: 0;
+}
+
+/* Título em azul */
+.titulo-fieldset {
+  color: #0284c7;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+/* Textos das perguntas/rótulos em preto mais claro (cinza escuro) */
+.rotulo {
+  color: #444444;
+  font-weight: bold;
+}
+
+.rotulo-opcao {
+  color: #444444;
+}
+
+/* Campos de entrada com bordas neutras/suaves (sem a cor azul) */
+.campo-texto,
+.campo-data,
+.campo-select,
+.campo-arquivo {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  border: 1px solid #cccccc; /* Bordas neutras e discretas */
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Botão de enviar em azul, com a borda removida */
+.botao-enviar {
+  background-color: #0284c7;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border: none; /* Sem borda no botão */
+  width: 100%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Efeito simples de clique no botão */
+.botao-enviar:hover {
+  background-color: #0369a1;
+}

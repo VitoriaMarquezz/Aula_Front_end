@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ficha Médica</title>
+  </head>
+  <body>
+    <form action=" ">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <!-- Nome do Paciente -->
+        <label for="nome">Nome do Paciente: </label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite seu nome"
+          required
+        />
+        <br />
+
+        <!-- Data da Consulta -->
+        <label for="data">Data da Consulta: </label>
+        <input type="date" name="data" id="data" required />
+        <br />
+
+        <!-- Especialidade Médica -->
+        <label for="especialidade">Especialidade Médica: </label>
+        <select name="especialidade" id="especialidade">
+          <option value="">--Escolha--</option>
+          <option value="clinica">Clínica Geral</option>
+          <option value="cardio">Cardiologia</option>
+          <option value="pediatria">Pediatria</option>
+        </select>
+        <br />
+
+        <!-- Plano de Saúde -->
+        <label for="plano">Plano de Saúde: </label>
+        <select name="plano" id="plano">
+          <option value="">--Escolha--</option>
+          <option value="particular">Particular</option>
+          <option value="unimed">Unimed</option>
+          <option value="porto">Porto Saúde</option>
+          <option value="bradesco">Bradesco Saúde</option>
+        </select>
+        <br />
+
+        <!-- Primeira consulta na clínica? -->
+        <label>Primeira consulta na clínica? </label>
+        <input type="radio" name="primeira" id="primeiraS" value="sim" />
+        <label for="primeiraS">Sim</label>
+
+        <input type="radio" name="primeira" id="primeiraN" value="nao" />
+        <label for="primeiraN">Não</label>
+        <br />
+
+        <!-- Necessidade de Acessibilidade no local -->
+        <label>Necessidade de Acessibilidade no local:</label> <br />
+        <input type="checkbox" name="acessibilidade1" id="rampa" />
+        <label for="rampa">Rampa de acesso</label> <br />
+
+        <input type="checkbox" name="acessibilidade2" id="libras" />
+        <label for="libras">Intérprete de Libras</label> <br />
+
+        <input type="checkbox" name="acessibilidade3" id="cao" />
+        <label for="cao">Espaço para Cão Guia</label>
+        <br />
+
+        <!-- Guia Médica ou Encaminhamento -->
+        <label for="arquivo">Guia Médica ou Encaminhamento: </label>
+        <input type="file" name="arquivo" id="arquivo" />
+        <br />
+
+        <p>
+          <!-- Confirmar Agendamento -->
+          <input type="submit" value="Confirmar Agendamento" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
