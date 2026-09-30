@@ -1,0 +1,13 @@
+/* css é a estilização do site  */
+body {
+  /* é sempre importante colo o #decimal das cores pq tem alguns sites não consegue ler  */
+  background-color: white;
+}
+
+ul {
+  color: green;
+  /* muda os tipos de lista */
+  list-style-type: square;
+  /* mud a posição do textos */
+  list-style-position: inside;
+}
