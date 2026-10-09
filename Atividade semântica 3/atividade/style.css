@@ -1,0 +1,167 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Container principal */
+.container {
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 1% auto;
+}
+
+/* Header principal */
+#cabecalho {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cabecalho h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* Nav principal */
+nav {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  color: #fff;
+}
+
+/* Container2 */
+.container2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+/* Div links (coluna cinza da esquerda) */
+#links {
+  position: relative;
+  width: 25%;
+  background-color: gray;
+  color: #fff;
+  padding: 5px;
+}
+
+main {
+  position: relative;
+  width: 50%;
+}
+
+/* Section (área central com fundo branco e margens internas) */
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Header cinza dentro da section */
+section header {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(206, 202, 202);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header2 {
+  font-size: 14px;
+}
+
+/* Div grande verde */
+#Div1 {
+  width: 100%;
+  height: 160px;
+  background-color: #6baf76;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Parágrafo azul-claro */
+section p {
+  width: 100%;
+  height: 35px;
+  background-color: #b2ffff;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+/* Contêiner das 3 caixas inferiores */
+.caixas-inferiores {
+  width: 100%;
+  display: flex;
+  gap: 10px; /* Espaço horizontal entre as 3 caixas */
+}
+
+/* As 3 caixas do fundo */
+#Div2,
+#Div3,
+#Div4 {
+  flex: 1; /* Faz as 3 divs terem exatamente a mesma largura */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+#Div2 {
+  background-color: #000;
+}
+#Div3 {
+  background-color: #8c6d6d;
+}
+#Div4 {
+  background-color: #ff2222;
+}
+
+/* Aside (coluna rosa da direita) */
+aside {
+  position: relative;
+  width: 25%;
+  background-color: rgb(243, 8, 118);
+  color: #000;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+footer h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
